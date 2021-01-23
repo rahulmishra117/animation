@@ -6,10 +6,11 @@
     left: 40%;
     top: 40%;
     /* transform: rotateY(110deg); */
-    transition:all;
+    transition: 1s ease-in-out;
 }
 div:hover{
-    height: 100px;
-    width: 100px;
+    transform:  rotate(360deg) scale(1.5) translate(100px);
+    /* transform:rotate(360deg); */
+    border-radius: 1px;
 
 }
