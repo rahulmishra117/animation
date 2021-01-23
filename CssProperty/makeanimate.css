@@ -1,0 +1,8 @@
+.Makeme{
+    background-color: aquamarine;
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
