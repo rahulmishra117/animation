@@ -10,7 +10,6 @@
 }
 div:hover{
     transform:  rotate(360deg) scale(1.5) translate(100px);
-    /* transform:rotate(360deg); */
-    border-radius: 1px;
+   
 
 }
