@@ -6,14 +6,14 @@
     to{
         border-radius: 50%;
     }
-} */
-.Makeme{
+}  */
+/* .Makeme{
     background-color: aquamarine;
     height: 100px;
     width: 200px;
     position: absolute;
     left: 40%;
-    top: 40%;
+    top: 40%; */
     /* transform: rotateY(110deg); */
     /* animation: changeShape 1s ease-in-out 5 alternate; */
 
@@ -21,6 +21,20 @@
 
 /* div:hover{
     transform:  rotate(360deg) scale(1.5) translate(100px);
-   
+}*/
 
-} */
+.cube{
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    position: relative;
+}
+.face{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(246, 19, 19);
+  top: 10%;
+  left:10%;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
